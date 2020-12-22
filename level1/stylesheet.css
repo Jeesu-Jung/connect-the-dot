@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	/*background-color:#00AEDC; */
+	background-image: url("../img/level_background/level1.gif");
+	font-size:16px;
+}
+
+.container{
+	width:800px;
+	height:800px;
+	display:block;
+	margin:auto;
+	background-image: url("../img/level/level1.png");
+	background-size: 800px 800px;
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+	overflow:visible;
+}
+
+.header{
+	padding:10px;
+	width:680px;
+	margin:auto;
+	background-color:#DBDBDB; 
+}
+
+h1{
+	padding:30px;
+	text-align:center;
+	margin:auto;
+}
+
+.circle{
+	border-radius:100%;
+	background-color:white;
+	text-align:center;
+	position:absolute;
+}
+
+.line{
+	stroke:rgb(22, 8, 151);
+	stroke-width:1px;
+}
+
+.next{
+	margin:auto;
+	padding:10px;
+	text-align:center;
+	font-size:16px;
+	width:680px;
+}
+
+.disabled{
+	display:none;
+}
+.active{
+	background-color:#00AEDC;
+	cursor:pointer;
+	display:block;
+	color:white;
+}
+div.circle:hover{
+	cursor:pointer;
+}

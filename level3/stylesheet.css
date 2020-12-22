@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-image: url("../img/level_background/level3.gif");
+	font-size:16px;
+}
+
+.container{
+	width:800px;
+	height:800px;
+	display:block;
+	margin:auto;
+	background-image: url("../img/level/level3.png");
+	background-size: 800px 800px;
+	background-color:#DBDBDB;
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+	overflow:visible;
+}
+
+.header{
+	padding:10px;
+	width:680px;
+	margin:auto;
+	background-color:#DBDBDB; 
+}
+
+h1{
+	text-align:center;
+	
+}
+
+.circle{
+	border-radius:100%;
+	background-color:white;
+	text-align:center;
+	position:absolute;
+}
+
+.line{
+	stroke:rgb(0,0,0);
+	stroke-width:1px;
+}
+
+.next{
+	margin:auto;
+	padding:10px;
+	text-align:center;
+	font-size:16px;
+	width:680px;
+}
+
+.disabled{
+	display:none;
+}
+.active{
+	background-color:#A9CD45;
+	cursor:pointer;
+	display:block;
+	color:white;
+}
+div.circle:hover{
+	cursor:pointer;
+}
